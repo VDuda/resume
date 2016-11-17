@@ -25,7 +25,7 @@
 \usepackage[left=0.8in,top=0.8in,right=.8in,bottom=0.5in]{geometry} % Document margins
 
 \name{Vlad Duda} % Your name
-\address{37 Temple pl \#401, Boston, MA 02111} % Your address
+\address{319 A St \#209, Boston, MA 02210} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
 \address{(781)~$\cdot$~298~$\cdot$~1185 \\ linkedin.com/in/vduda \\ volod2010@gmail.com \\ https://github.com/VDuda} % Your phone number and email
 
@@ -41,11 +41,10 @@
 Languages: & C/C++, Java, Python, PHP, Ruby, JavaScript (Node), SQL, CSS/sass/less  \\\\ 
 Concepts: & Object Oriented Design (OOD), Model View Controller (MVC), Agile Development  \\
  & Distributed Systems, Virtualization, Containerization, REST/SOAP, HTTP/2  \\\\
-Software: & Vagrant, Docker, Hypervisors, MySQL/Oracle/PostgreSQL, Chef/Puppet\\
+Software: & Vagrant, Docker, Hypervisors, MySQL/Oracle/PostgreSQL, Chef/Ansible\\
  & Nginx/Apache, Varnish, redis, glusterFS, Bamboo/Travis CI, Drupal, Magento  \\\\
-Environment: & Ubuntu (CLI + GUI), CentOS (CLI), MacOSX/BSD, AWS \\
+Environment: & AWS, Ubuntu (CLI + GUI), CentOS (CLI), MacOSX/BSD \\
  & Windows (Win7, XP, Win8; GUI + CLI)
-
 \end{tabular}
 
 \end{rSection}
@@ -58,30 +57,25 @@ Environment: & Ubuntu (CLI + GUI), CentOS (CLI), MacOSX/BSD, AWS \\
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Maxwell Health}{October 2015 - Present}{DevOps Engineer}{Boston, MA}
-Maxwell Health is a technology platform and innovative marketplace solution that makes benefits and HR simple. Maxwell streamlines the administration of benefits, human resources, and payroll for HR administrators, and its beautiful, modern experience makes it easy for employees to choose and use their benefits, helping them achieve better health and financial security. Leading benefits advisors and insurance carriers partner with Maxwell to deliver a state-of-the-art benefits and HR experience for small-to-mid-size employers and their employees.
+At Maxwell I think holistically about technology, envisioning better processes, building them, operating them, and incorporating the tools and systems that support them. A disciple of pragmatism, I engineers scalable solutions that work in the real world.
+\item Built out our CI/CD pipeline for Building, Testing, and Deploying our applications (docker based) on a continuous stream
+\item Architected (HIPAA-Compliant) several systems (DBs, WebServers, GlusterFS as well as the underlying AWS Networking) to support our ongoing commitment to deliver our product to customers.
+\item Created and architected an event sourcing stream with ETL for us to analyze our data, BigData related, allowed us to gain insight into our data. (Using AWS EMR - Hadoop to perform expensive computational tasks
 \end{rSubsection}
 
 %------------------------------------------------
 
 
-\begin{rSubsection}{NuoDB}{May 2015 - October 2015}{Software Engineer}{Cambridge, MA}
+\begin{rSubsection}{NuoDB}{June 2014 - October 2015}{Software Engineer}{Cambridge, MA}
+ \item Worked on maintaining NuoDB Drivers and APIs, including: PHP PDO, Node.js Driver, ODBC, JDBC, .NET Driver, Python Driver, Ruby Driver, and countless Frameworks dependent on each driver. 
 	      \item Managed an enterprise level server architecture within the AWS environment, working with 
 	      \\core AWS services, EC2, EBS, S3, Route53, Cloudfront, etc. 
-          \item Used the following technologies: Nginx, Varnish, memcached, GlusterFS, Openstack, AWS, Docker,\\ IT automation Chef/Puppet, Zabbix, ELK Stack, Atlassian stack, LEMP/LAMP stack, etc.  
           \item Scripted an environment for Automated deployment of drivers, as well as in late stages of using docker\\ images (w/docker machine) to simulate a multi-host architecture
-          \item Developed features and performed regular maintenance of Tier 1 Drivers. Held responsible for Python\\ PEP249 driver and PHP PDO driver, with direct input into the Drupal integration
           \item Actively worked with the NuoDB product, a distributed transactional database with an emphasis on\\ ACID compliance; applied 3rd party integrations as well as testing the feasibility and reliability\\ of such integrations
-          \item Participated in an office move, helped with switch programming on Arista Switches; created VLANs, \\Route Tables, cabling and testing of the network
-          \item Worked alongside the Devops, Webmaster, and Drivers \& Integration teams
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{NuoDB}{June 2014 - May 2015}{Software Engineering Intern}{Cambridge, MA}
- 	      \item Worked on maintaining NuoDB Drivers and APIs, including: PHP PDO, Node.js Driver, ODBC, JDBC,\\ .NET Driver, Python Driver, Ruby Driver, and countless Frameworks dependent on each driver.
-          \item Worked on internal features; created a round-robin implementation of a failover broker feature. Greatly \\appreciated by clients and users of specific drivers. NuoDB is a scalable distributed database; thus\\ given a situation in which a specific server was down, my feature would automatically maintain a stable\\ connection to the database by using a broker, which was not down/inactive
+   	\item Worked on internal features; created a round-robin implementation of a failover broker feature. Greatly \\appreciated by clients and users of specific drivers. NuoDB is a scalable distributed database; thus\\ given a situation in which a specific server was down, my feature would automatically maintain a stable\\ connection to the database by using a broker, which was not down/inactive
           \item Created, Tested and Maintained Bamboo branch plans for Drivers. Created several build and test scripts\\ for continuous testing of the PHP-PDO driver
-          \item Given the unique position for maintaining drivers, I was able to explore each Driver’s specific language\\ and implementation, in depth. Allowing me to gain insightful knowledge on the Data Abstraction Layer\\ of each language/API – and the design thereof
+          \item Participated in an office move, helped with switch programming on Arista Switches; created VLANs, \\Route Tables, cabling and testing of the network
+          \item Worked alongside the Devops, Webmaster, and Drivers \& Integration teams; juggling many hats.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -109,7 +103,7 @@ Maxwell Health is a technology platform and innovative marketplace solution that
 
 
 %----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
+%	VOLUNTEER SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Volunteer Work}
@@ -120,9 +114,10 @@ Maxwell Health is a technology platform and innovative marketplace solution that
 
 %------------------------------------------------
 
-\begin{rSubsection}{Financial Literacy And Giving Program}{}{Participant}{Bridgewater, MA}
- 	       \item I have achieved a certificate in mastery in Financial Literacy And Giving Program. The program provided a financial insight into entrepreneurial businesses which follow a strict ethics code. The program taught me valuable business lessons. A 10 week project was developed hand and hand with the program. In which I took up the initiative of constructing a website for the program. I worked hand in hand with the program coordinator to construct a valid CMS system to handle the backend actions. The website was overturned to the program coordinator. The site will ultimately be hosted online under a bridgew.edu subdomain.
+\begin{rSubsection}{--Inquire for additional volunteer experience - I LOVE to volunteer --}{}{Participant}{Anywhere, USA}
+ 	       \item 
 \end{rSubsection}
+
 
 %------------------------------------------------	  
 
@@ -136,7 +131,7 @@ Maxwell Health is a technology platform and innovative marketplace solution that
 
 \begin{rSection}{Education}
 
-{\bf Harvard University Exten`sion School} - {\em 2014 - Present} \vspace{0.5em}\\ 
+{\bf Harvard University Extension School} - {\em 2014 - Present} \vspace{0.5em}\\ 
 Pursuing classes of interest in Technology \\
 
 {\bf Bridgewater State University} - \textit{cum laude} \hfill {\em 2011 - 2015} \vspace{0.5em}\\ 
