@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.8in,top=0.8in,right=.8in,bottom=0.5in]{geometry} % Document margins
+
+\name{Vlad Duda} % Your name
+\address{37 Temple pl \#401, Boston, MA 02111} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(781)~$\cdot$~298~$\cdot$~1185 \\ linkedin.com/in/vduda \\ volod2010@gmail.com \\ https://github.com/VDuda} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills Summary}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages: & C/C++, Java, Python, PHP, Ruby, JavaScript (Node), SQL, CSS/sass/less  \\\\ 
+Concepts: & Object Oriented Design (OOD), Model View Controller (MVC), Agile Development  \\
+ & Distributed Systems, Virtualization, Containerization, REST/SOAP, HTTP/2  \\\\
+Software: & Vagrant, Docker, Hypervisors, MySQL/Oracle/PostgreSQL, Chef/Puppet\\
+ & Nginx/Apache, Varnish, redis, glusterFS, Bamboo/Travis CI, Drupal, Magento  \\\\
+Environment: & Ubuntu (CLI + GUI), CentOS (CLI), MacOSX/BSD, AWS \\
+ & Windows (Win7, XP, Win8; GUI + CLI)
+
+\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Maxwell Health}{October 2015 - Present}{DevOps Engineer}{Boston, MA}
+Maxwell Health is a technology platform and innovative marketplace solution that makes benefits and HR simple. Maxwell streamlines the administration of benefits, human resources, and payroll for HR administrators, and its beautiful, modern experience makes it easy for employees to choose and use their benefits, helping them achieve better health and financial security. Leading benefits advisors and insurance carriers partner with Maxwell to deliver a state-of-the-art benefits and HR experience for small-to-mid-size employers and their employees.
+\end{rSubsection}
+
+%------------------------------------------------
+
+
+\begin{rSubsection}{NuoDB}{May 2015 - October 2015}{Software Engineer}{Cambridge, MA}
+	      \item Managed an enterprise level server architecture within the AWS environment, working with 
+	      \\core AWS services, EC2, EBS, S3, Route53, Cloudfront, etc. 
+          \item Used the following technologies: Nginx, Varnish, memcached, GlusterFS, Openstack, AWS, Docker,\\ IT automation Chef/Puppet, Zabbix, ELK Stack, Atlassian stack, LEMP/LAMP stack, etc.  
+          \item Scripted an environment for Automated deployment of drivers, as well as in late stages of using docker\\ images (w/docker machine) to simulate a multi-host architecture
+          \item Developed features and performed regular maintenance of Tier 1 Drivers. Held responsible for Python\\ PEP249 driver and PHP PDO driver, with direct input into the Drupal integration
+          \item Actively worked with the NuoDB product, a distributed transactional database with an emphasis on\\ ACID compliance; applied 3rd party integrations as well as testing the feasibility and reliability\\ of such integrations
+          \item Participated in an office move, helped with switch programming on Arista Switches; created VLANs, \\Route Tables, cabling and testing of the network
+          \item Worked alongside the Devops, Webmaster, and Drivers \& Integration teams
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{NuoDB}{June 2014 - May 2015}{Software Engineering Intern}{Cambridge, MA}
+ 	      \item Worked on maintaining NuoDB Drivers and APIs, including: PHP PDO, Node.js Driver, ODBC, JDBC,\\ .NET Driver, Python Driver, Ruby Driver, and countless Frameworks dependent on each driver.
+          \item Worked on internal features; created a round-robin implementation of a failover broker feature. Greatly \\appreciated by clients and users of specific drivers. NuoDB is a scalable distributed database; thus\\ given a situation in which a specific server was down, my feature would automatically maintain a stable\\ connection to the database by using a broker, which was not down/inactive
+          \item Created, Tested and Maintained Bamboo branch plans for Drivers. Created several build and test scripts\\ for continuous testing of the PHP-PDO driver
+          \item Given the unique position for maintaining drivers, I was able to explore each Driver’s specific language\\ and implementation, in depth. Allowing me to gain insightful knowledge on the Data Abstraction Layer\\ of each language/API – and the design thereof
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Bridgwater State University}{July 2013 - June 2015}{Tutor}{Bridgewater, MA}
+ 	      \item Developed strong interpersonal and communication skills in dealing directly with students and \\ answering complex inquiries with a pragmatic approach
+          \item Learned to deal constructively with stressful situations of being understaffed
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Express Products, Inc.}{January 2011 - June 2014}{Operations \& Engineering}{Canton, MA}
+ 	      \item Created and developed an online presence. Engineered and architected our server architecture. 
+ 	      \item Administered server architecture to make sure key parts of website were integrated correctly.
+ 	      Including securing private folders, logins, and writing php scripts to handle backend tasks.
+          \item Integrated a faster method of data imports into the Magento environment, using Magmi; which 
+          focused on direct SQL injections into the database versus the built in method of importing data using
+           php based scripts.
+          \item Led creation on a Business administration app; features included: maintaining a single database of company inventory from multiple online channels, integrating specific Channel APIs with their intended tasks, creating a real time sync between different channels, grabbing customer information from different online channels, automatically posting items to channels void of that specific item.
+\end{rSubsection}
+
+%------------------------------------------------
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Volunteer Work}
+
+\begin{rSubsection}{Federal Reserve Bank of Boston}{}{Volunteer}{Boston, MA}
+ 	       \item Volunteering at the Federal Reserve Bank of Boston was a great privilege. Work included handling events held at the Federal Reserve. Providing administrative aid in the form of contest prep. The event itself was the Economics Challenge, which the Federal Reserve holds annually. I did get a chance to talk to Federal Reserve employees and their relative day to day experiences. Through this event, I learned how vital Financial Services are to the overall improvement of society.
+ 	 \end{rSubsection}	     
+
+%------------------------------------------------
+
+\begin{rSubsection}{Financial Literacy And Giving Program}{}{Participant}{Bridgewater, MA}
+ 	       \item I have achieved a certificate in mastery in Financial Literacy And Giving Program. The program provided a financial insight into entrepreneurial businesses which follow a strict ethics code. The program taught me valuable business lessons. A 10 week project was developed hand and hand with the program. In which I took up the initiative of constructing a website for the program. I worked hand in hand with the program coordinator to construct a valid CMS system to handle the backend actions. The website was overturned to the program coordinator. The site will ultimately be hosted online under a bridgew.edu subdomain.
+\end{rSubsection}
+
+%------------------------------------------------	  
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Harvard University Exten`sion School} - {\em 2014 - Present} \vspace{0.5em}\\ 
+Pursuing classes of interest in Technology \\
+
+{\bf Bridgewater State University} - \textit{cum laude} \hfill {\em 2011 - 2015} \vspace{0.5em}\\ 
+B.Sc Computer Science \\
+GPA: 3.59 \vspace{0.5em}\\
+B.Sc Economics \\
+GPA: 3.76
+
+\end{rSection}
+\end{document}
