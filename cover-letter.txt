@@ -1,0 +1,7 @@
+Interested in the ever changing landscape of the DevOps world. Have had an exciting adventure navigating the landscape so far, from working with big data to developing tools so that devs could iterate faster. I see myself as someone that devs will, and ideally, should come to when their tools break, the systems they're using are too complicated, and someone that sees performance and architecture of an application above a feature. I believe that applications should scale, without too much headache. 
+
+I'm a big proponent of Azure, as I've used it in countless projects for my own clients - primarily in the eCommerce field. Although a majority of my previous employers used AWS, Linode, and DO. I've always pushed for the adoption of Azure for small quick to market apps that are primarily in C#. I've built and managed servers of up to 250 servers, ranging in management from manual, chef, puppet, ansible, and salt. We currently use Ansible, but I have run Chef Zero to manage servers previously. 
+
+Majority of my tools and microservices are written in python and I usually MVP an idea within the python ecosystem. I do practice TDD when I plan to publish the app for more day-to-day use. My previous position, a database company, I worked on the python driver following PEP249 standard. 
+
+-Vlad 
