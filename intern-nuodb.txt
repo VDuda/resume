@@ -1,0 +1,2 @@
+June 2014 - May 2015 NuoDB Inc. Software Engineer Internship
+Worked on several projects, quickly learning the requirements and able to contribute on the first day of starting said projects. Given the unique position of maintaining drivers, I was able to explore each Driver’s specific language and implementation, in depth. Allowing me to gain insightful knowledge on the Data Abstraction Layer of each language/API – and the design thereof. Was held responsible for several of the integration projects, felt amazing comfort and pride for the trust granted. 
